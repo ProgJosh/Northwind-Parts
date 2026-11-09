@@ -36,7 +36,7 @@ export function CollectionTiles() {
               <ProductImage
                 image={collection.image && { ...collection.image, altText: "" }}
                 sizes="(min-width: 1024px) 12rem, (min-width: 768px) 33vw, 50vw"
-                className="p-3 transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none"
+                className="transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none"
               />
             </div>
             <div className="space-y-1 p-3">

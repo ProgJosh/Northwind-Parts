@@ -20,7 +20,12 @@ export function SiteFooter() {
             Northwind Parts is a fictional store, built to demonstrate an e-commerce prototype. Its products, prices,
             stock, orders, and payments are all simulated. Nothing is sold, charged, or shipped.
           </p>
-          <p className="text-xs text-paper/60">Product illustrations are original artwork made for this demo.</p>
+          <p className="text-xs text-paper/60">
+            Product photos are openly licensed stock images from Wikimedia Commons, shown for illustration only.{" "}
+            <Link href="/credits" className="underline underline-offset-2 hover:text-paper">
+              Photo credits
+            </Link>
+          </p>
         </div>
         <nav aria-label="Footer">
           <ul role="list" className="flex flex-wrap gap-x-6 gap-y-2 text-sm md:flex-col">

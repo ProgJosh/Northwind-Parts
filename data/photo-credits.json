@@ -1,0 +1,114 @@
+{
+  "/products/tyre-trail.webp": {
+    "file": "Mountain bike tires.JPG",
+    "author": "Sylenius",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_bike_tires.JPG",
+    "changes": "Cropped to a square."
+  },
+  "/products/tyre-gravel.webp": {
+    "file": "Mountain bike tyres from maxxis schwalbe and wtb.jpg",
+    "author": "Alextredz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_bike_tyres_from_maxxis_schwalbe_and_wtb.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/inner-tube.webp": {
+    "file": "Fahrradschlaeuche.jpg",
+    "author": "Baumfreund-FFM",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Fahrradschlaeuche.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/chain.webp": {
+    "file": "KMC Bicycle Chain.jpg",
+    "author": "AndrewDressel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:KMC_Bicycle_Chain.jpg",
+    "changes": "Placed on a square background with softened edges."
+  },
+  "/products/cassette.webp": {
+    "file": "CassetteAlignment.jpg",
+    "author": "Ian Harvey",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:CassetteAlignment.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/pedals.webp": {
+    "file": "Fyxation Bicycle Pedal.jpg",
+    "author": "AndrewDressel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Fyxation_Bicycle_Pedal.jpg",
+    "changes": "Cropped to a square; maker's logo blurred."
+  },
+  "/products/brake-pads.webp": {
+    "file": "Disc pad.jpg",
+    "author": "Pe pawel",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Disc_pad.jpg",
+    "changes": "Placed on a square background with softened edges."
+  },
+  "/products/disc-rotor.webp": {
+    "file": "Magura Julie disk brake rotor 160 mm.jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Magura_Julie_disk_brake_rotor_160_mm.jpg",
+    "changes": "Placed on a square background with softened edges."
+  },
+  "/products/saddle.webp": {
+    "file": "Kontact Bicycle Seat Top.png",
+    "author": "Rkclx",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kontact_Bicycle_Seat_Top.png",
+    "changes": "Placed on a square background with softened edges."
+  },
+  "/products/grips.webp": {
+    "file": "Lock-on bicycle handlebar grip.jpg",
+    "author": "JaredMcKenzie",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Lock-on_bicycle_handlebar_grip.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/front-light.webp": {
+    "file": "Headlight (bicycle)-3.jpg",
+    "author": "Anton Ehrola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Headlight_(bicycle)-3.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/rear-light.webp": {
+    "file": "RearLight3.jpg",
+    "author": "Minnaert",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:RearLight3.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/multi-tool.webp": {
+    "file": "Hex keys - 1.jpg",
+    "author": "Mauro Cateb",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Hex_keys_-_1.jpg",
+    "changes": "Cropped to a square."
+  },
+  "/products/floor-pump.webp": {
+    "file": "Bike pump.jpg",
+    "author": "Ewok Slayer (English Wikipedia)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "source": "https://commons.wikimedia.org/wiki/File:Bike_pump.jpg",
+    "changes": "Placed on a square white background; maker's logo blurred."
+  }
+}

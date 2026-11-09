@@ -6,7 +6,7 @@ import type { CartBuyerIdentity } from "@/lib/commerce/types";
 export const VARIANTS = {
   ridge29: "gid://northwind/ProductVariant/100102", // Ridge Trail Tyre 29 × 2.4, CHF 64.90, 4 in stock
   ridge275: "gid://northwind/ProductVariant/100101", // Ridge Trail Tyre 27.5 × 2.4, CHF 64.90, 14 in stock
-  gravel40Black: "gid://northwind/ProductVariant/100201", // Allroad Gravel Tyre, CHF 52.90, 20 in stock
+  gravel38: "gid://northwind/ProductVariant/100201", // Allroad Gravel Tyre 700 × 38c, CHF 52.90, 20 in stock
   tubePresta: "gid://northwind/ProductVariant/100301", // Sealed Inner Tube, CHF 11.90, 40 in stock
   pump: "gid://northwind/ProductVariant/101401", // Track Floor Pump, CHF 59.00, sold out
 } as const;

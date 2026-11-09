@@ -6,10 +6,10 @@ import { ChevronRightIcon } from "@/components/ui/icons";
 
 /** Decorative hero art (catalog data is always loaded through the store adapter). */
 const HERO_ART = [
-  { src: "/products/cassette.svg", figure: "Fig. 01", note: "Drivetrain" },
-  { src: "/products/tyre-trail.svg", figure: "Fig. 02", note: "Wheels" },
-  { src: "/products/front-light.svg", figure: "Fig. 03", note: "Lights" },
-  { src: "/products/multi-tool.svg", figure: "Fig. 04", note: "Workshop" },
+  { src: "/products/cassette.webp", figure: "Fig. 01", note: "Drivetrain" },
+  { src: "/products/tyre-trail.webp", figure: "Fig. 02", note: "Wheels" },
+  { src: "/products/front-light.webp", figure: "Fig. 03", note: "Lights" },
+  { src: "/products/multi-tool.webp", figure: "Fig. 04", note: "Workshop" },
 ];
 
 const HOW_IT_WORKS = [
@@ -88,10 +88,10 @@ export default function HomePage() {
                 <Image
                   src={art.src}
                   alt=""
-                  width={800}
-                  height={800}
+                  width={1000}
+                  height={1000}
                   preload={index < 2}
-                  className="aspect-square h-auto w-full object-contain"
+                  className="aspect-square h-auto w-full rounded-md object-cover"
                 />
                 <p className="eyebrow mt-1 truncate">
                   <span className="hidden sm:inline">{art.figure} · </span>

@@ -27,7 +27,7 @@ export function ProductCard({ product }: { product: Product }) {
         <ProductImage
           image={product.featuredImage}
           sizes="(min-width: 1024px) 18rem, (min-width: 768px) 33vw, 50vw"
-          className="p-3 transition-transform duration-300 group-hover:scale-[1.04] motion-reduce:transition-none sm:p-5"
+          className="transition-transform duration-300 group-hover:scale-[1.04] motion-reduce:transition-none"
         />
         {(status !== "in-stock" || onSale) && (
           <div className="absolute left-2 top-2 flex flex-col items-start gap-1 sm:left-3 sm:top-3">

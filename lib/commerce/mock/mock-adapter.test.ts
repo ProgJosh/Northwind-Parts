@@ -111,7 +111,7 @@ describe("MockStoreAdapter cart", () => {
     const store = createMockStore();
     const { id } = await store.createCart();
 
-    let cart = await store.addToCart(id, VARIANTS.gravel40Black, 1);
+    let cart = await store.addToCart(id, VARIANTS.gravel38, 1);
     expect(cart.cost).toEqual({
       subtotalAmount: chf(5_290),
       shippingAmount: chf(790),

@@ -70,8 +70,8 @@ function OrderDetails({ order }: { order: Order }) {
         <ul role="list" className="divide-y divide-line">
           {order.lineItems.map((item) => (
             <li key={`${item.sku}-${item.variantTitle}`} className="flex items-center gap-3 py-3">
-              <div className="size-14 shrink-0 rounded-md bg-well">
-                <ProductImage image={item.image && { ...item.image, altText: "" }} sizes="56px" className="p-1.5" />
+              <div className="size-14 shrink-0 overflow-hidden rounded-md bg-well">
+                <ProductImage image={item.image && { ...item.image, altText: "" }} sizes="56px" />
               </div>
               <div className="min-w-0 flex-1 text-sm">
                 <p className="font-semibold">{item.title}</p>

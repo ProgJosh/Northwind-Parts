@@ -14,7 +14,7 @@ function SummaryLines({ cart }: { cart: Cart }) {
             <ProductImage
               image={line.merchandise.image && { ...line.merchandise.image, altText: "" }}
               sizes="56px"
-              className="p-1.5"
+              className="rounded-md"
             />
             <span
               aria-hidden="true"

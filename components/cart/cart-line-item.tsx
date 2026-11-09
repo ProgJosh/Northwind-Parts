@@ -48,7 +48,7 @@ export function CartLineItem({ line }: { line: CartLine }) {
         aria-hidden="true"
         className="size-20 shrink-0 overflow-hidden rounded-md bg-well sm:size-24"
       >
-        <ProductImage image={merchandise.image && { ...merchandise.image, altText: "" }} sizes="96px" className="p-2" />
+        <ProductImage image={merchandise.image && { ...merchandise.image, altText: "" }} sizes="96px" />
       </Link>
       <div className="flex min-w-0 flex-1 flex-col gap-3 sm:flex-row sm:flex-wrap sm:justify-between">
         <div className="min-w-0 space-y-0.5">

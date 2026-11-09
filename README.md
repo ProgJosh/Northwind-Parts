@@ -4,8 +4,8 @@
 > demonstrate an e-commerce prototype. Nothing is sold, charged, or shipped.
 
 A Next.js storefront with a Shopify-shaped data layer, live stock, a persistent cart, a checkout that
-validates every step, and a clearly labelled fake payment gateway. The brand, design, copy, and product
-illustrations are original.
+validates every step, and a clearly labelled fake payment gateway. The brand, design, and copy are original.
+Product photos are openly licensed stock images from Wikimedia Commons (see [Credits](#credits)).
 
 ## Quick start
 
@@ -49,6 +49,7 @@ Any other number is refused with a clear message before anything happens.
 | Real, working code | Fake or simulated |
 | --- | --- |
 | Catalog with collections, variants, SKUs, prices, and images | The brand, products, prices, and stock levels (all invented) |
+| Product images, with credits on each product page | The photos show similar parts by other makers, not the listed items |
 | Live stock per variant: low-stock and sold-out states, a per-order limit, stock taken off when an order is placed | The warehouse: stock lives in your browser, not on a server |
 | Persistent cart, quantity changes, totals with shipping and included VAT | Shipping rates and the free-shipping threshold |
 | Checkout steps with validation, order confirmation, demo admin | Payment: `lib/fake-gateway.ts` only pretends to authorise test cards |
@@ -136,7 +137,7 @@ data/catalog.json    seed catalog: 14 products, 6 collections, starting stock
 lib/commerce/        types, StoreAdapter, mock and Shopify adapters, stock, money, and search helpers
 lib/checkout/        checkout form validation
 lib/fake-gateway.ts  the fake payment gateway
-public/products/     original SVG product illustrations
+public/products/     product photos (Wikimedia Commons, credits in data/photo-credits.json)
 e2e/                 Playwright purchase flow
 test/                shared test fixtures
 ```
@@ -159,5 +160,7 @@ test/                shared test fixtures
 
 ## Credits
 
-Product illustrations are original SVG artwork made for this demo. Fonts: Archivo and IBM Plex Mono
-(SIL Open Font License), loaded with `next/font`.
+Product photos come from Wikimedia Commons under CC0, public domain, CC BY 3.0, and CC BY-SA 3.0/4.0
+licences. Each photo was cropped or placed on a square background, and two makers' logos were blurred.
+Authors, licences, and changes are listed in `data/photo-credits.json`, on each product page, and at
+`/credits`. Fonts: Archivo and IBM Plex Mono (SIL Open Font License), loaded with `next/font`.

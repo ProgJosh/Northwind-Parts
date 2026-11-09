@@ -23,7 +23,7 @@ export function ProductImage({ image, sizes, className = "" }: ProductImageProps
       width={image.width}
       height={image.height}
       sizes={sizes}
-      className={`h-full w-full object-contain ${className}`}
+      className={`h-full w-full object-cover ${className}`}
     />
   );
 }

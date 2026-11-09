@@ -12,6 +12,7 @@ import type { Collection, Image as StoreImage, Product } from "@/lib/commerce/ty
 import { findVariant, hasOnlyDefaultVariant, selectionOf } from "@/lib/commerce/variants";
 import { AddToCart } from "./add-to-cart";
 import { Price } from "./price";
+import { PhotoCreditLine } from "./photo-credit";
 import { ProductImage } from "./product-image";
 import { VariantPicker } from "./variant-picker";
 
@@ -160,8 +161,9 @@ function Gallery({
   return (
     <div className="space-y-3 md:sticky md:top-6 md:self-start">
       <div className="aspect-square overflow-hidden rounded-lg bg-well">
-        <ProductImage image={image} sizes="(min-width: 768px) 50vw, 100vw" className="p-6 sm:p-10" />
+        <ProductImage image={image} sizes="(min-width: 768px) 50vw, 100vw" />
       </div>
+      <PhotoCreditLine url={image?.url} />
       {product.images.length > 1 && (
         <ul role="list" className="flex gap-2">
           {product.images.map((candidate, index) => (
@@ -173,7 +175,7 @@ function Gallery({
                 aria-pressed={candidate.url === image?.url}
                 className="size-16 overflow-hidden rounded-md border-2 border-transparent bg-well aria-pressed:border-ink"
               >
-                <ProductImage image={{ ...candidate, altText: "" }} sizes="64px" className="p-1.5" />
+                <ProductImage image={{ ...candidate, altText: "" }} sizes="64px" />
               </button>
             </li>
           ))}
