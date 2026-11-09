@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4f1ea;
+  --color-card: #fffdf8;
+  --color-well: #e9e4d8;
+  --color-ink: #14232b;
+  --color-ink-soft: #4d5c64;
+  --color-line: #d6cfc0;
+  --color-fjord: #1f5568;
+  --color-fjord-soft: #dce9ec;
+  --color-signal: #c2410c;
+  --color-signal-dark: #9a3412;
+  --color-hazard: #f4c430;
+  --color-ok: #1e6b45;
+  --color-ok-soft: #dff1e6;
+  --color-warn: #8a4a00;
+  --color-warn-soft: #fcefd6;
+  --color-bad: #a3241a;
+  --color-bad-soft: #f9e3e0;
+}
+
+@theme inline {
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-fjord);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-hazard);
+    color: var(--color-ink);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  button:not(:disabled),
+  [role="button"],
+  summary {
+    cursor: pointer;
+  }
+}
+
+/* Centered page column with a 16px gutter on phones. */
+@utility page-width {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 76rem;
+  padding-inline: 1rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+}
+
+/* Expanded, heavy headings using Archivo's width axis. */
+@utility font-display {
+  font-stretch: 118%;
+  font-weight: 760;
+  letter-spacing: -0.015em;
+}
+
+/* Small uppercase technical labels. */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+}
+
+@utility hazard-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-hazard) 0 14px,
+    var(--color-ink) 14px 28px
+  );
+}

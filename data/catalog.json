@@ -1,0 +1,298 @@
+{
+  "vendor": "Northwind Parts",
+  "currencyCode": "CHF",
+  "collections": [
+    {
+      "id": "gid://northwind/Collection/1",
+      "handle": "wheels-tyres",
+      "title": "Wheels & Tyres",
+      "description": "Tyres and tubes for road, gravel, and trail.",
+      "image": { "url": "/products/tyre-trail.svg", "altText": "Illustration of a knobbly trail tyre", "width": 800, "height": 800 }
+    },
+    {
+      "id": "gid://northwind/Collection/2",
+      "handle": "drivetrain",
+      "title": "Drivetrain",
+      "description": "Chains and cassettes that keep your gears running smoothly.",
+      "image": { "url": "/products/cassette.svg", "altText": "Illustration of a twelve-speed cassette", "width": 800, "height": 800 }
+    },
+    {
+      "id": "gid://northwind/Collection/3",
+      "handle": "brakes",
+      "title": "Brakes",
+      "description": "Pads and rotors for confident stopping in any weather.",
+      "image": { "url": "/products/disc-rotor.svg", "altText": "Illustration of a six-bolt disc brake rotor", "width": 800, "height": 800 }
+    },
+    {
+      "id": "gid://northwind/Collection/4",
+      "handle": "contact-points",
+      "title": "Contact Points",
+      "description": "Saddles, grips, and pedals: the parts you touch on every ride.",
+      "image": { "url": "/products/saddle.svg", "altText": "Illustration of a short-nose saddle seen from above", "width": 800, "height": 800 }
+    },
+    {
+      "id": "gid://northwind/Collection/5",
+      "handle": "lights",
+      "title": "Lights",
+      "description": "Front and rear lights for being seen, day and night.",
+      "image": { "url": "/products/front-light.svg", "altText": "Illustration of a front bike light casting a beam", "width": 800, "height": 800 }
+    },
+    {
+      "id": "gid://northwind/Collection/6",
+      "handle": "workshop",
+      "title": "Workshop",
+      "description": "Tools and pumps for roadside fixes and home servicing.",
+      "image": { "url": "/products/multi-tool.svg", "altText": "Illustration of a folding multi-tool with its keys fanned out", "width": 800, "height": 800 }
+    }
+  ],
+  "products": [
+    {
+      "id": "gid://northwind/Product/1001",
+      "handle": "ridge-trail-tyre",
+      "title": "Ridge Trail Tyre",
+      "productType": "Tyre",
+      "description": "A tubeless-ready trail tyre with ramped centre knobs that roll fast and tall shoulder knobs that hold a line on loose ground. Dual-compound rubber, 60 TPI casing, and a folding aramid bead.",
+      "tags": ["mtb", "featured"],
+      "collections": ["wheels-tyres"],
+      "publishedAt": "2026-08-04T08:00:00Z",
+      "images": [
+        { "url": "/products/tyre-trail.svg", "altText": "Illustration of the Ridge Trail Tyre, a knobbly mountain-bike tyre", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100101", "title": "27.5 × 2.4", "sku": "NW-TY-RIDGE-2724", "price": 6490, "compareAtPrice": null, "inventory": 14, "selectedOptions": [{ "name": "Size", "value": "27.5 × 2.4" }] },
+        { "id": "gid://northwind/ProductVariant/100102", "title": "29 × 2.4", "sku": "NW-TY-RIDGE-2924", "price": 6490, "compareAtPrice": null, "inventory": 4, "selectedOptions": [{ "name": "Size", "value": "29 × 2.4" }] },
+        { "id": "gid://northwind/ProductVariant/100103", "title": "29 × 2.6", "sku": "NW-TY-RIDGE-2926", "price": 6990, "compareAtPrice": null, "inventory": 0, "selectedOptions": [{ "name": "Size", "value": "29 × 2.6" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1002",
+      "handle": "allroad-gravel-tyre",
+      "title": "Allroad Gravel Tyre",
+      "productType": "Tyre",
+      "description": "A fine file tread down the middle for speed on hardpack, with small side knobs for loose corners. Tubeless-ready, with a puncture belt under the tread.",
+      "tags": ["gravel"],
+      "collections": ["wheels-tyres"],
+      "publishedAt": "2026-09-15T08:00:00Z",
+      "images": [
+        { "url": "/products/tyre-gravel-black.svg", "altText": "Illustration of the Allroad Gravel Tyre with black sidewalls", "width": 800, "height": 800 },
+        { "url": "/products/tyre-gravel-tan.svg", "altText": "Illustration of the Allroad Gravel Tyre with tan sidewalls", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100201", "title": "700 × 40c / Black", "sku": "NW-TY-ALLRD-40BK", "price": 5290, "compareAtPrice": null, "inventory": 20, "selectedOptions": [{ "name": "Size", "value": "700 × 40c" }, { "name": "Sidewall", "value": "Black" }], "image": "/products/tyre-gravel-black.svg" },
+        { "id": "gid://northwind/ProductVariant/100202", "title": "700 × 40c / Tan", "sku": "NW-TY-ALLRD-40TN", "price": 5290, "compareAtPrice": null, "inventory": 6, "selectedOptions": [{ "name": "Size", "value": "700 × 40c" }, { "name": "Sidewall", "value": "Tan" }], "image": "/products/tyre-gravel-tan.svg" },
+        { "id": "gid://northwind/ProductVariant/100203", "title": "700 × 45c / Black", "sku": "NW-TY-ALLRD-45BK", "price": 5490, "compareAtPrice": null, "inventory": 9, "selectedOptions": [{ "name": "Size", "value": "700 × 45c" }, { "name": "Sidewall", "value": "Black" }], "image": "/products/tyre-gravel-black.svg" },
+        { "id": "gid://northwind/ProductVariant/100204", "title": "700 × 45c / Tan", "sku": "NW-TY-ALLRD-45TN", "price": 5490, "compareAtPrice": null, "inventory": 0, "selectedOptions": [{ "name": "Size", "value": "700 × 45c" }, { "name": "Sidewall", "value": "Tan" }], "image": "/products/tyre-gravel-tan.svg" }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1003",
+      "handle": "sealed-inner-tube",
+      "title": "Sealed Inner Tube",
+      "productType": "Inner tube",
+      "description": "A butyl tube with a removable valve core, so you can add sealant or swap the core. It folds small enough for a saddle bag.",
+      "tags": ["road", "gravel", "mtb", "city"],
+      "collections": ["wheels-tyres"],
+      "publishedAt": "2026-05-20T08:00:00Z",
+      "images": [
+        { "url": "/products/inner-tube.svg", "altText": "Illustration of a bike inner tube with its valve", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100301", "title": "700 × 28–35c / Presta", "sku": "NW-TB-700-28P", "price": 1190, "compareAtPrice": null, "inventory": 40, "selectedOptions": [{ "name": "Size", "value": "700 × 28–35c" }, { "name": "Valve", "value": "Presta" }] },
+        { "id": "gid://northwind/ProductVariant/100302", "title": "700 × 28–35c / Schrader", "sku": "NW-TB-700-28S", "price": 1190, "compareAtPrice": null, "inventory": 12, "selectedOptions": [{ "name": "Size", "value": "700 × 28–35c" }, { "name": "Valve", "value": "Schrader" }] },
+        { "id": "gid://northwind/ProductVariant/100303", "title": "29 × 2.1–2.6 / Presta", "sku": "NW-TB-29-21P", "price": 1290, "compareAtPrice": null, "inventory": 25, "selectedOptions": [{ "name": "Size", "value": "29 × 2.1–2.6" }, { "name": "Valve", "value": "Presta" }] },
+        { "id": "gid://northwind/ProductVariant/100304", "title": "29 × 2.1–2.6 / Schrader", "sku": "NW-TB-29-21S", "price": 1290, "compareAtPrice": null, "inventory": 3, "selectedOptions": [{ "name": "Size", "value": "29 × 2.1–2.6" }, { "name": "Valve", "value": "Schrader" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1004",
+      "handle": "link-chain",
+      "title": "Link Chain",
+      "productType": "Chain",
+      "description": "A nickel-plated chain with hollow pins, supplied with a reusable quick link. Cut it to length for your bike.",
+      "tags": ["road", "gravel", "mtb"],
+      "collections": ["drivetrain"],
+      "publishedAt": "2026-07-02T08:00:00Z",
+      "images": [
+        { "url": "/products/chain.svg", "altText": "Illustration of a bike chain with a gold quick link", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100401", "title": "11-speed", "sku": "NW-CH-LINK-11", "price": 3490, "compareAtPrice": null, "inventory": 15, "selectedOptions": [{ "name": "Speed", "value": "11-speed" }] },
+        { "id": "gid://northwind/ProductVariant/100402", "title": "12-speed", "sku": "NW-CH-LINK-12", "price": 4490, "compareAtPrice": null, "inventory": 2, "selectedOptions": [{ "name": "Speed", "value": "12-speed" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1005",
+      "handle": "wide-range-cassette",
+      "title": "Wide-Range Cassette",
+      "productType": "Cassette",
+      "description": "Twelve steel sprockets on an alloy carrier, with a big jump at the bottom for steep climbs. Fits standard 12-speed freehub bodies.",
+      "tags": ["mtb", "gravel", "featured"],
+      "collections": ["drivetrain"],
+      "publishedAt": "2026-10-01T08:00:00Z",
+      "images": [
+        { "url": "/products/cassette.svg", "altText": "Illustration of the Wide-Range Cassette with nested sprockets", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100501", "title": "10–45T", "sku": "NW-CS-WIDE-1045", "price": 13900, "compareAtPrice": 15900, "inventory": 7, "selectedOptions": [{ "name": "Range", "value": "10–45T" }] },
+        { "id": "gid://northwind/ProductVariant/100502", "title": "10–51T", "sku": "NW-CS-WIDE-1051", "price": 14900, "compareAtPrice": 16900, "inventory": 3, "selectedOptions": [{ "name": "Range", "value": "10–51T" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1006",
+      "handle": "platform-flat-pedals",
+      "title": "Platform Flat Pedals",
+      "productType": "Pedals",
+      "description": "A thin, concave alloy body with ten replaceable pins per side for grip in any shoe. Sealed bearings and a chromoly axle.",
+      "tags": ["mtb", "city"],
+      "collections": ["contact-points"],
+      "publishedAt": "2026-06-11T08:00:00Z",
+      "images": [
+        { "url": "/products/pedals-black.svg", "altText": "Illustration of a black flat pedal with grip pins", "width": 800, "height": 800 },
+        { "url": "/products/pedals-raw.svg", "altText": "Illustration of a raw silver flat pedal with grip pins", "width": 800, "height": 800 },
+        { "url": "/products/pedals-copper.svg", "altText": "Illustration of a copper flat pedal with grip pins", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100601", "title": "Black", "sku": "NW-PD-PLAT-BK", "price": 7400, "compareAtPrice": null, "inventory": 11, "selectedOptions": [{ "name": "Colour", "value": "Black" }], "image": "/products/pedals-black.svg" },
+        { "id": "gid://northwind/ProductVariant/100602", "title": "Raw silver", "sku": "NW-PD-PLAT-RW", "price": 7400, "compareAtPrice": null, "inventory": 4, "selectedOptions": [{ "name": "Colour", "value": "Raw silver" }], "image": "/products/pedals-raw.svg" },
+        { "id": "gid://northwind/ProductVariant/100603", "title": "Copper", "sku": "NW-PD-PLAT-CU", "price": 7900, "compareAtPrice": null, "inventory": 0, "selectedOptions": [{ "name": "Colour", "value": "Copper" }], "image": "/products/pedals-copper.svg" }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1007",
+      "handle": "disc-brake-pads",
+      "title": "Disc Brake Pads",
+      "productType": "Brake pads",
+      "description": "Organic pads for quiet, progressive braking, or sintered pads for long descents and wet weather. Sold as a pair with a spreader spring.",
+      "tags": ["road", "gravel", "mtb", "city"],
+      "collections": ["brakes"],
+      "publishedAt": "2026-04-22T08:00:00Z",
+      "images": [
+        { "url": "/products/brake-pads.svg", "altText": "Illustration of a pair of disc brake pads with a spreader spring", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100701", "title": "Organic", "sku": "NW-BP-DISC-ORG", "price": 2290, "compareAtPrice": null, "inventory": 30, "selectedOptions": [{ "name": "Compound", "value": "Organic" }] },
+        { "id": "gid://northwind/ProductVariant/100702", "title": "Sintered", "sku": "NW-BP-DISC-SIN", "price": 2490, "compareAtPrice": null, "inventory": 22, "selectedOptions": [{ "name": "Compound", "value": "Sintered" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1008",
+      "handle": "cool-run-disc-rotor",
+      "title": "Cool-Run Disc Rotor",
+      "productType": "Brake rotor",
+      "description": "A six-bolt stainless rotor with a cut-out pattern that sheds heat and mud. Bolts included.",
+      "tags": ["road", "gravel", "mtb"],
+      "collections": ["brakes"],
+      "publishedAt": "2026-08-27T08:00:00Z",
+      "images": [
+        { "url": "/products/disc-rotor.svg", "altText": "Illustration of the Cool-Run six-bolt disc rotor", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100801", "title": "160 mm", "sku": "NW-BR-COOL-160", "price": 3290, "compareAtPrice": null, "inventory": 10, "selectedOptions": [{ "name": "Size", "value": "160 mm" }] },
+        { "id": "gid://northwind/ProductVariant/100802", "title": "180 mm", "sku": "NW-BR-COOL-180", "price": 3690, "compareAtPrice": null, "inventory": 7, "selectedOptions": [{ "name": "Size", "value": "180 mm" }] },
+        { "id": "gid://northwind/ProductVariant/100803", "title": "203 mm", "sku": "NW-BR-COOL-203", "price": 4290, "compareAtPrice": null, "inventory": 1, "selectedOptions": [{ "name": "Size", "value": "203 mm" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1009",
+      "handle": "contour-saddle",
+      "title": "Contour Saddle",
+      "productType": "Saddle",
+      "description": "A short-nose saddle with a pressure-relief channel and firm padding for long days. Hollow steel rails.",
+      "tags": ["road", "gravel", "featured"],
+      "collections": ["contact-points"],
+      "publishedAt": "2026-07-19T08:00:00Z",
+      "images": [
+        { "url": "/products/saddle.svg", "altText": "Illustration of the Contour Saddle seen from above", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/100901", "title": "143 mm", "sku": "NW-SD-CONT-143", "price": 8900, "compareAtPrice": null, "inventory": 6, "selectedOptions": [{ "name": "Width", "value": "143 mm" }] },
+        { "id": "gid://northwind/ProductVariant/100902", "title": "155 mm", "sku": "NW-SD-CONT-155", "price": 8900, "compareAtPrice": null, "inventory": 8, "selectedOptions": [{ "name": "Width", "value": "155 mm" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1010",
+      "handle": "lock-on-grips",
+      "title": "Lock-On Grips",
+      "productType": "Grips",
+      "description": "Soft rubber grips with a single inner lock ring, so they stay put without glue. 135 mm long.",
+      "tags": ["mtb", "city"],
+      "collections": ["contact-points"],
+      "publishedAt": "2026-03-30T08:00:00Z",
+      "images": [
+        { "url": "/products/grips-black.svg", "altText": "Illustration of black lock-on grips", "width": 800, "height": 800 },
+        { "url": "/products/grips-moss.svg", "altText": "Illustration of moss green lock-on grips", "width": 800, "height": 800 },
+        { "url": "/products/grips-orange.svg", "altText": "Illustration of signal orange lock-on grips", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/101001", "title": "Black", "sku": "NW-GR-LOCK-BK", "price": 2790, "compareAtPrice": null, "inventory": 25, "selectedOptions": [{ "name": "Colour", "value": "Black" }], "image": "/products/grips-black.svg" },
+        { "id": "gid://northwind/ProductVariant/101002", "title": "Moss green", "sku": "NW-GR-LOCK-GN", "price": 2790, "compareAtPrice": null, "inventory": 7, "selectedOptions": [{ "name": "Colour", "value": "Moss green" }], "image": "/products/grips-moss.svg" },
+        { "id": "gid://northwind/ProductVariant/101003", "title": "Signal orange", "sku": "NW-GR-LOCK-OR", "price": 2790, "compareAtPrice": null, "inventory": 3, "selectedOptions": [{ "name": "Colour", "value": "Signal orange" }], "image": "/products/grips-orange.svg" }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1011",
+      "handle": "beam-front-light",
+      "title": "Beam Front Light",
+      "productType": "Front light",
+      "description": "A USB-C rechargeable front light with a shaped beam that doesn't dazzle oncoming traffic. Tool-free handlebar mount.",
+      "tags": ["road", "gravel", "city", "featured"],
+      "collections": ["lights"],
+      "publishedAt": "2026-09-30T08:00:00Z",
+      "images": [
+        { "url": "/products/front-light.svg", "altText": "Illustration of the Beam Front Light casting its beam", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/101101", "title": "800 lm", "sku": "NW-LT-BEAM-800", "price": 6900, "compareAtPrice": null, "inventory": 9, "selectedOptions": [{ "name": "Output", "value": "800 lm" }] },
+        { "id": "gid://northwind/ProductVariant/101102", "title": "1200 lm", "sku": "NW-LT-BEAM-1200", "price": 8900, "compareAtPrice": null, "inventory": 4, "selectedOptions": [{ "name": "Output", "value": "1200 lm" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1012",
+      "handle": "glow-rear-light",
+      "title": "Glow Rear Light",
+      "productType": "Rear light",
+      "description": "A compact rear light that gets brighter when you brake. Up to 12 hours on flash mode.",
+      "tags": ["road", "gravel", "city"],
+      "collections": ["lights"],
+      "publishedAt": "2026-06-03T08:00:00Z",
+      "images": [
+        { "url": "/products/rear-light.svg", "altText": "Illustration of the Glow Rear Light with red LEDs", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/101201", "title": "Default Title", "sku": "NW-LT-GLOW-01", "price": 3400, "compareAtPrice": null, "inventory": 2, "selectedOptions": [{ "name": "Title", "value": "Default Title" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1013",
+      "handle": "multi-tool-16",
+      "title": "16-Function Multi-Tool",
+      "productType": "Tool",
+      "description": "Hex keys from 2 to 8 mm, a T25 Torx key, screwdrivers, spoke keys, and a chain breaker, folded into a body smaller than a phone.",
+      "tags": ["road", "gravel", "mtb", "city"],
+      "collections": ["workshop"],
+      "publishedAt": "2026-05-08T08:00:00Z",
+      "images": [
+        { "url": "/products/multi-tool.svg", "altText": "Illustration of the 16-Function Multi-Tool with its keys fanned out", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/101301", "title": "Default Title", "sku": "NW-WS-MULTI-16", "price": 3900, "compareAtPrice": null, "inventory": 16, "selectedOptions": [{ "name": "Title", "value": "Default Title" }] }
+      ]
+    },
+    {
+      "id": "gid://northwind/Product/1014",
+      "handle": "track-floor-pump",
+      "title": "Track Floor Pump",
+      "productType": "Pump",
+      "description": "A steel-barrel floor pump with a large gauge that reads to 11 bar, and a head that fits Presta and Schrader valves.",
+      "tags": ["road", "gravel", "mtb", "city"],
+      "collections": ["workshop"],
+      "publishedAt": "2026-02-14T08:00:00Z",
+      "images": [
+        { "url": "/products/floor-pump.svg", "altText": "Illustration of the Track Floor Pump with its pressure gauge", "width": 800, "height": 800 }
+      ],
+      "variants": [
+        { "id": "gid://northwind/ProductVariant/101401", "title": "Default Title", "sku": "NW-WS-PUMP-01", "price": 5900, "compareAtPrice": null, "inventory": 0, "selectedOptions": [{ "name": "Title", "value": "Default Title" }] }
+      ]
+    }
+  ]
+}
